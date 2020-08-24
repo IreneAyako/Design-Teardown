@@ -1,0 +1,214 @@
+body {
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.nav {
+  margin-top: -0.7%;
+  background-color: rgb(211, 58, 44);
+  width: 1358px;
+  height: 100px;
+}
+
+.nav img {
+  margin-top: 1%;
+  height: 90px;
+  width: 300px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: 700px;
+  color: white;
+  padding: 14px 13px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.nav p {
+  margin-left: 12%;
+  margin-top: -5%;
+}
+
+.nav a:hover {
+  background-color: rgb(188, 52, 40);
+  border-radius: 10px;
+}
+
+.nav button {
+  padding: 14px 24px;
+  background: rgb(169, 46, 35);
+  font-weight: bold;
+  font-size: 21px;
+  color: white;
+  border: none;
+  margin-top: -2%;
+  border-radius: 10px;
+}
+
+.nav button:hover {
+  background-color: rgb(139, 22, 11);
+}
+
+.search {
+  margin-left: 75%;
+  margin-top: -5%;
+}
+
+.search input {
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  width: 300px;
+  height: 50px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+  outline: none;
+  font-size: 27px;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.search input:hover {
+  box-shadow: 0 40px 27px -5px rgba(7, 7, 7, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+.icon {
+  margin-top: -4.6%;
+}
+
+.icon img {
+  height: 50px;
+  width: 50px;
+  margin-left: -4%;
+  margin-top: -40%;
+  border-radius: 7px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: -17.55%;
+}
+
+.head h1 {
+  display: block;
+  text-align: center;
+  letter-spacing: -1px;
+  margin-top: 6%;
+  font-size: 43px;
+  color: rgb(51, 51, 51);
+}
+
+.head h1 span {
+  background-color: white;
+  padding: 0.3em 0.4em;
+  line-height: 1.5em;
+  box-shadow: 0 20px 27px -5px rgba(50, 50, 93, 0.25),
+    0 20px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+.main > div {
+  height: 650px;
+}
+
+.main > div img {
+  height: 80px;
+  width: 80px;
+  border: 5px solid white;
+  border-radius: 7px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 100%;
+}
+
+.container > div {
+  height: 500px;
+  width: 430px;
+  background-color: white;
+}
+
+.container > div:hover {
+  height: auto;
+  width: 450px;
+  z-index: 999;
+  background-color: rgb(218, 216, 216);
+}
+
+.container > div h1:hover {
+  color: rgb(212, 72, 72);
+}
+
+.contain {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  margin-left: 3%;
+}
+
+.contain > div {
+  height: 630px;
+}
+
+.contain button {
+  padding: 8px;
+  background: rgb(249, 249, 252);
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(15, 29, 233);
+  height: 50px;
+  border: none;
+  border-radius: 7px;
+  width: 220px;
+  margin-top: 3%;
+  margin-left: 35%;
+}
+
+.container1 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 5%;
+}
+
+.container1 > div {
+  height: 480px;
+  width: 430px;
+  background-color: white;
+}
+
+.container1 > div:hover {
+  height: auto;
+  width: 450px;
+  z-index: 999;
+  background-color: rgb(218, 216, 216);
+}
+
+.container1 > div h1:hover {
+  color: rgb(212, 72, 72);
+}
+
+.smash {
+  height: 650px;
+  width: 1200px;
+  margin-top: 12%;
+  margin-left: 7%;
+}
+
+.smash button {
+  padding: 8px;
+  background: rgb(249, 249, 252);
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(72, 81, 201);
+  height: 50px;
+  border: none;
+  border-radius: 7px;
+  width: 300px;
+  margin-top: 3%;
+  margin-left: 35%;
+}
