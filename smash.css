@@ -317,7 +317,7 @@ body {
 
 .ourguides {
   background-color: rgb(246, 243, 242);
-  height: 2000px;
+  height: 1800px;
 }
 
 .guides {
@@ -348,4 +348,9 @@ body {
   margin-left: 8%;
   background-color: white;
   border-radius: 15px;
+}
+
+.footer {
+  height: 800px;
+  background-color: rgb(211, 58, 44);
 }
