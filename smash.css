@@ -212,3 +212,140 @@ body {
   margin-top: 3%;
   margin-left: 35%;
 }
+
+.blue {
+  background-color: rgb(27, 113, 187);
+  height: 1000px;
+  margin-top: 7%;
+}
+
+.blue button {
+  padding: 8px;
+  background: rgb(249, 249, 252);
+  font-weight: bold;
+  font-size: 21px;
+  color: rgb(72, 81, 201);
+  height: 60px;
+  border: none;
+  border-radius: 7px;
+  width: 330px;
+  margin-top: 3%;
+  margin-left: 35%;
+}
+
+.image img {
+  height: 1700px;
+  width: 900px;
+  margin-top: -42%;
+  z-index: 1;
+  margin-left: 15%;
+}
+
+.zara img {
+  height: 180px;
+  width: 180px;
+  border: 7px solid rgb(207, 48, 48);
+  border-radius: 10px;
+  margin-top: 6%;
+  margin-left: 4%;
+  box-shadow: 0 20px 27px -5px rgba(50, 50, 93, 0.25),
+    0 20px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 10%;
+}
+
+.grid > div {
+  height: 450px;
+}
+
+.grid img {
+  height: 60px;
+  width: 60px;
+  border: 5px solid rgb(185, 68, 68);
+  border-radius: 5px;
+  margin-top: 6%;
+  margin-left: 6%;
+}
+
+.grid h1:hover {
+  color: red;
+}
+
+.design {
+  background-color: rgb(211, 58, 44);
+  height: 400px;
+  margin-top: 10%;
+}
+
+.design button {
+  padding: 8px;
+  background: rgb(249, 249, 252);
+  font-weight: bold;
+  font-size: 23px;
+  color: rgb(72, 81, 201);
+  height: 60px;
+  border: none;
+  border-radius: 7px;
+  width: 330px;
+  margin-left: 6%;
+  margin-top: 2%;
+}
+
+.design button:hover {
+  color: rgb(231, 74, 74);
+}
+
+.book {
+  margin-top: -4%;
+}
+
+.book img {
+  height: 400px;
+  width: 300px;
+  margin-left: 75%;
+  margin-top: -40%;
+}
+
+.book img:hover {
+  box-shadow: 0 20px 27px -5px rgba(50, 50, 93, 0.25),
+    0 20px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+.ourguides {
+  background-color: rgb(246, 243, 242);
+  height: 2000px;
+}
+
+.guides {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+
+.guides > div {
+  height: 500px;
+  margin-top: 20%;
+  width: 600px;
+  margin-left: 8%;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.smashingguide {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+
+.smashingguide > div {
+  height: 800px;
+  margin-top: 20%;
+  width: 600px;
+  margin-left: 8%;
+  background-color: white;
+  border-radius: 15px;
+}
