@@ -351,6 +351,32 @@ body {
 }
 
 .footer {
-  height: 800px;
+  height: 700px;
   background-color: rgb(211, 58, 44);
+  margin-top: -2%;
+}
+
+.list ul {
+  color: rgb(57, 12, 6);
+  display: flex;
+}
+
+.footer ul li {
+  margin: 10px;
+}
+
+.footer ul li a {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.footer ul li a:hover {
+  color: rgb(57, 12, 6);
+}
+
+.links a {
+  color: white;
+  margin: 5px;
 }
